@@ -1,0 +1,5 @@
+add_test([=[ArcReplacerTest.SampleTest]=]  /home/ppsome/project/bustub/build_rel/test/arc_replacer_test [==[--gtest_filter=ArcReplacerTest.SampleTest]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/ppsome/project/bustub/build_rel/test/arc_replacer_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[ArcReplacerTest.SampleTest]=]  PROPERTIES WORKING_DIRECTORY /home/ppsome/project/bustub/build_rel/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+add_test([=[ArcReplacerTest.SampleTest2]=]  /home/ppsome/project/bustub/build_rel/test/arc_replacer_test [==[--gtest_filter=ArcReplacerTest.SampleTest2]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/ppsome/project/bustub/build_rel/test/arc_replacer_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[ArcReplacerTest.SampleTest2]=]  PROPERTIES WORKING_DIRECTORY /home/ppsome/project/bustub/build_rel/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+set(  arc_replacer_test_TESTS ArcReplacerTest.SampleTest ArcReplacerTest.SampleTest2)
