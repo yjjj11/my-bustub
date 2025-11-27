@@ -1,5 +1,0 @@
-if(EXISTS "/home/ppsome/project/bustub/build_rel/test/arc_replacer_performance_test[1]_tests.cmake")
-  include("/home/ppsome/project/bustub/build_rel/test/arc_replacer_performance_test[1]_tests.cmake")
-else()
-  add_test(arc_replacer_performance_test_NOT_BUILT arc_replacer_performance_test_NOT_BUILT)
-endif()
